@@ -35,7 +35,7 @@ h2{font-size:clamp(1.65rem,2.2vw,2rem);letter-spacing:-.02em}.section{padding-bl
 /* Single-line institutional names, with stacked rows on smaller screens. */
 .organizer-institutions .institution-inner{grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr))}
 .organizer-institutions .institution img{flex-shrink:0}
-.organizer-institutions .institution span{white-space:nowrap}
+.organizer-institutions .institution span {white-space: nowrap; font-size: 1.125rem;font-weight: 700;}
 @media(max-width:900px){.organizer-institutions .institution-inner{grid-template-columns:1fr;gap:20px}.organizer-institutions .institution{flex-direction:row;align-items:center;justify-content:flex-start}}
 @media(max-width:600px){.organizer-institutions .institution span{font-size:.8125rem}}
 
