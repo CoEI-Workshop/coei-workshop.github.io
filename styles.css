@@ -20,6 +20,18 @@ h2{font-size:clamp(1.65rem,2.2vw,2rem);letter-spacing:-.02em}.section{padding-bl
 @media(max-width:600px){.institution-inner{gap:12px}.section{padding-block:38px}.organizer-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}.person-photo{aspect-ratio:4/4.5}.about-section h2{margin-bottom:20px}.speakers-section{padding-block:30px}.institution{align-items:start}}
 @media print{.section{padding-block:24px}.organizer-grid{grid-template-columns:repeat(2,1fr)}}
 
+/* One speaker per row, with a portrait and verified affiliation. */
+.speaker-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:0}
+.speaker-card{display:flex;align-items:center;gap:24px;min-width:0;padding-block:20px;border-bottom:1px solid var(--line)}
+.speaker-card:first-child{padding-top:0}
+.speaker-card:last-child{padding-bottom:0;border-bottom:0}
+.speaker-photo{flex:0 0 96px;width:96px;height:112px;object-fit:cover;object-position:center 25%;border-radius:6px;background:var(--pale)}
+.speaker-info{min-width:0}
+.speaker-grid h3{margin-top:0}
+.speaker-grid p{font-size:.9375rem;margin-top:8px}
+.speakers-section .speaker-note{margin-top:28px;font-size:1rem;color:var(--muted)}
+@media(max-width:600px){.speaker-card{gap:18px;padding-block:18px}.speaker-photo{flex-basis:80px;width:80px;height:96px}.speaker-grid p{font-size:.875rem;line-height:1.5}}
+
 /* Single-line institutional names, with stacked rows on smaller screens. */
 .organizer-institutions .institution-inner{grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr))}
 .organizer-institutions .institution img{flex-shrink:0}
@@ -32,6 +44,14 @@ h2{font-size:clamp(1.65rem,2.2vw,2rem);letter-spacing:-.02em}.section{padding-bl
 .person-photo{max-width:280px}
 .person-card .person-affiliation{white-space:nowrap}
 @media(max-width:600px){.organizer-grid{grid-template-columns:minmax(0,1fr);gap:32px}}
+
+/* Organizer responsibilities, with workshop co-chairs listed alphabetically. */
+.organizer-grid{display:block}
+.organizer-role-group+.organizer-role-group{margin-top:32px}
+.organizer-role-heading{color:var(--teal);font-size:1.05rem;letter-spacing:0;margin-bottom:18px}
+.organizer-role-grid{display:grid;grid-template-columns:minmax(0,1fr);gap:20px}
+.person-card h4{margin:0;font-size:1.18rem;font-weight:700;line-height:1.2;letter-spacing:-.015em}
+.organizer-role-grid .person-affiliation{margin-top:7px}
 
 /* Poster-inspired hero, using editable text and the original theme icons. */
 .hero{min-height:720px}

@@ -3,8 +3,22 @@
    Empty speaker lists deliberately render the public “To be announced” message. */
 window.COEI_CONTENT = {
   organizers: [
-    { name: 'Huseyin Arslan', affiliation: 'Istanbul Medipol University', initials: 'HA', photo: 'assets/people/huseyin-arslan.jpg' },
-    { name: 'Shuai Wang', affiliation: 'SIAT, Chinese Academy of Sciences', initials: 'SW', photo: 'assets/people/shuai-wang.jpg' }
+    { name: 'Huseyin Arslan', title: 'Prof.', affiliation: 'Istanbul Medipol University', role: 'General Chair' },
+    { name: 'Shuai Wang', title: 'Prof.', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Program Chair' },
+    { name: 'Aaiza Hamid', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
+    { name: 'He Li', affiliation: 'University of Macau', role: 'Workshop Co-Chairs' },
+    { name: 'Jawair Yaseen', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
+    { name: 'Mert İsmail', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
+    { name: 'Xibin Jin', affiliation: 'South China University of Technology', role: 'Workshop Co-Chairs' },
+    { name: 'Jiahui He', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Conference Secretary' }
+  ],
+  speakers: [
+    { name: 'Prof. Huseyin Arslan', affiliation: 'Istanbul Medipol University', photo: 'assets/people/huseyin-arslan.jpg' },
+    { name: 'Prof. Chengzhong Xu', affiliation: 'University of Macau', photo: 'assets/people/chengzhong-xu.jpg' },
+    { name: 'Prof. Miaowen Wen', affiliation: 'South China University of Technology', photo: 'assets/people/miaowen-wen.jpg' },
+    { name: 'Prof. Kejiang Ye', affiliation: 'SIAT, Chinese Academy of Sciences', photo: 'assets/people/kejiang-ye.jpg' },
+    { name: 'Prof. Shuai Wang', affiliation: 'SIAT, Chinese Academy of Sciences', photo: 'assets/people/shuai-wang.jpg' },
+    { name: 'Prof. Xinliang Wei', affiliation: 'SIAT, Chinese Academy of Sciences', photo: 'assets/people/xinliang-wei.jpg' }
   ],
   // Example after confirmation:
   // { name: 'Full name', affiliation: 'Institution', title: 'Talk title',
