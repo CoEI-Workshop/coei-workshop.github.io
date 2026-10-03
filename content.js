@@ -3,13 +3,16 @@
    Empty speaker lists deliberately render the public “To be announced” message. */
 window.COEI_CONTENT = {
   organizers: [
-    { name: 'Huseyin Arslan', title: 'Prof.', affiliation: 'Istanbul Medipol University', role: 'General Chair' },
-    { name: 'Shuai Wang', title: 'Prof.', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Program Chair' },
-    { name: 'Aaiza Hamid', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
+    { name: 'Huseyin Arslan', affiliation: 'Istanbul Medipol University', role: 'General Chair' },
+    { name: 'Shuai Wang', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Program Chair' },
+    { name: 'Gürkan Orduluoglu', affiliation: 'Huawei Türkiye', role: 'Workshop Co-Chairs' },
     { name: 'He Li', affiliation: 'University of Macau', role: 'Workshop Co-Chairs' },
-    { name: 'Jawair Yaseen', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
+    { name: 'Ibrahim Hökelek', affiliation: 'Tubitak Bilgem', role: 'Workshop Co-Chairs' },
     { name: 'Mert İsmail', affiliation: 'Istanbul Medipol University', role: 'Workshop Co-Chairs' },
     { name: 'Xibin Jin', affiliation: 'South China University of Technology', role: 'Workshop Co-Chairs' },
+    { name: 'Aaiza Hamid', affiliation: 'Istanbul Medipol University', role: 'Conference Secretary' },
+    { name: 'Burak Gökay', affiliation: 'Istanbul Medipol University', role: 'Conference Secretary' },
+    { name: 'Jawair Yaseen', affiliation: 'Istanbul Medipol University', role: 'Conference Secretary' },
     { name: 'Jiahui He', affiliation: 'SIAT, Chinese Academy of Sciences', role: 'Conference Secretary' }
   ],
   speakers: [
